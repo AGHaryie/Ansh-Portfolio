@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.navbar {
+  background-color: inherit;
+  color: inherit;
+}
+
+.navbar .nav-links a {
+  color: inherit;
+}
+
+.navbar .navbar-logo .logo {
+  filter: invert(var(--invert-logo));
 }

@@ -1,0 +1,20 @@
+/* Footer.css */
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; /* White text */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding on top and bottom */
+    position: relative; /* Fixed position */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 5px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    font-family: 'Arial, sans-serif'; /* Font family */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Font size */
+  }
+  

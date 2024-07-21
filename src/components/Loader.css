@@ -1,0 +1,19 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .loader-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Keyframes for spinning animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

@@ -1,0 +1,6 @@
+/* styles.css */
+body {
+    background: url('./header.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+}

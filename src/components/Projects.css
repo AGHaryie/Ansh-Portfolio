@@ -1,0 +1,25 @@
+/* Projects.css */
+.projects-wrapper {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Background for the entire wrapper */
+}
+
+.projects-heading {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 0px; /* Space below the heading */
+}
+
+.projects-container {
+    display: flexbox;
+    grid-template-columns: 1fr; /* Single column layout */
+    justify-items: center; /* Center items horizontally */
+    padding: 30px;
+    flex-direction: column;
+}
+
+.project-item {
+    width: 100%; /* Adjust width as necessary */
+    margin-bottom: 20px; /* Space between items */
+}

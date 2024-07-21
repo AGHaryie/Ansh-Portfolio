@@ -1,0 +1,119 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px;
+    transition: background-color 1s ease;
+  }
+  
+  .navbar.sticky {
+    background-color: rgba(51, 51, 51, 0);
+  }
+  
+  .navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: 0.4s;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    transition: max-height 0.4s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .nav-links.open {
+    max-height: 400px; /* Adjust based on number of links */
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .nav-links a:hover {
+    color: #aaa;
+  }
+  
+  .dropdown {
+    position: relative ;
+  }
+  
+  .dropdown-menu {
+    display: contents;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-toggle {
+      display: none;
+    }
+  
+    .nav-links {
+      display: flex;
+      max-height: none;
+      flex-direction: row;
+    }
+  
+    .nav-links li {
+      margin: 0 1rem;
+    }
+  }
+
+  .navbar-logo img.logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    cursor: pointer;
+  }
+  

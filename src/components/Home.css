@@ -1,0 +1,96 @@
+.home {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-size: auto;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  padding: 0; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in max-width calculation */
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%; /* Occupies the left half of the screen */
+  background-color: rgba(127, 255, 212, 0); /* Background color for the profile container */
+  padding: 10px;
+  box-sizing:content-box;
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 0.25rem;
+}
+
+.profile-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-text p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+.resume-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
+  margin-top: 20px; /* Adds space between profile and button */
+  align-self: center; /* Aligns button to the left under the image */
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}
+
+.bio {
+  align-self: center;
+  width: 50%; /* Occupies the right half of the screen */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bio p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
