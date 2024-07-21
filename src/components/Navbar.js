@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css';
 import logo from '../assets/logo.png'; // Assuming the logo image is placed in the assets folder
-import DarkModeToggle from './DarkModeToggle'; // Import the DarkModeToggle component
+// import DarkModeToggle from './DarkModeToggle'; // Import the DarkModeToggle component
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +61,7 @@ const Navbar = () => {
           </ScrollLink>
         </li>
         <li>
-          <DarkModeToggle /> {/* Add the DarkModeToggle component */}
+          {/* <DarkModeToggle /> Add the DarkModeToggle component */}
         </li>
       </ul>
     </nav>
