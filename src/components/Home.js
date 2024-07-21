@@ -25,7 +25,7 @@ const Home = () => {
           <div className="profile">
             <img src={profileImage} alt="Profile" className="profile-image" />
             <div className="profile-text">
-              <h1>Ansh Agrawal Ansh</h1>
+              <h1>Ansh Agrawal</h1>
               <p>Computer Science Engineering | Data Science</p>
             </div>
           </div>
