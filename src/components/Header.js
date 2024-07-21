@@ -19,7 +19,7 @@ const Welcome = () => {
 
       const hours = istTime.getHours();
 
-      if (hours < 12&& hours > 4) {
+      if (hours < 12) {
         return 'Good Morning!';
       } else if (hours < 17) {
         return 'Good Afternoon!';
